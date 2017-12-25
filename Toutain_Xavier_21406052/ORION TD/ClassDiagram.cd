@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FloatPoint">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="_x" Hidden="true" />
+      <Field Name="_y" Hidden="true" />
+      <Method Name="~FloatPoint" Hidden="true" />
+      <Method Name="FloatPoint" Hidden="true" />
+      <Method Name="getX" Hidden="true" />
+      <Method Name="getY" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="setX" Hidden="true" />
+      <Method Name="setY" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>iAAAAAAIAAQAAAAAAAAGAAAAAAAAAAAAAAAgAGAAAAA=</HashCode>
+      <FileName>FloatPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAGAAAAAAAAAAAAAAAAAGAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="7.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAAACAAAIAAAAAACAAACAAIAAAAAAAAAA=</HashCode>
+      <FileName>Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameBoard">
+    <Position X="19.5" Y="2" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABgAJQAEMAORCAKIAQhAhAEAIQAQABABAEA=</HashCode>
+      <FileName>GameBoard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameBoardPieces">
+    <Position X="24" Y="2" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAQgAAAACIAAAAAAAEAABAAYAAAAAAAAAA=</HashCode>
+      <FileName>GameBoardPieces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawMethod">
+    <Position X="11.25" Y="10.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAABAAAQAkIAAAAAAAAAAAAAQAAIAAAAEAA=</HashCode>
+      <FileName>DrawMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawSelctedCaseMethod">
+    <Position X="1.5" Y="14.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawSelctedCaseMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawStandardCaseMethod">
+    <Position X="5.75" Y="14.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>DrawStandardCaseMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicItem">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GraphicItem" Hidden="true" />
+      <Method Name="draw" Hidden="true" />
+      <Method Name="GraphicItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <FileName>GraphicItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoMoneyTowerCreationUIDrawMethod">
+    <Position X="10" Y="14.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAAgAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>NoMoneyTowerCreationUIDrawMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectedTowerCreationUIDrawMethod">
+    <Position X="15.5" Y="14.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAQIAAAAAAAAAAAQIAAAAAAAAAAA=</HashCode>
+      <FileName>SelectedTowerCreationUIDrawMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerUIDrawMethod">
+    <Position X="21" Y="14.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAABgAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>TowerUIDrawMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIObject">
+    <Position X="51" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAAAAIAAAAAAAQAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>UIObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIObjects">
+    <Position X="4" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEIgAAAAAAAAAAAAEAKAAAAAgwAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>UIObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cadre">
+    <Position X="28.5" Y="4.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAACAAABAAAAAIAAAAAAAAAAACAAAACACAAAQA=</HashCode>
+      <FileName>Cadre.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicBar">
+    <Position X="34.25" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGAACAAAAAAIAAAAAAAAAAAAAIAAAACAAAAA=</HashCode>
+      <FileName>GraphicBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyUI">
+    <Position X="38.5" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAACCBAAAAAAAoAAAAAAAAAAAAAIAAAACAAIAA=</HashCode>
+      <FileName>MoneyUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LifeUI">
+    <Position X="42.75" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAAAAAAAAAMAAAAAAAAAAIkAIAAAACAAAAA=</HashCode>
+      <FileName>LifeUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheapTowerCreationUI">
+    <Position X="56.5" Y="10.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAIQAAAAAAAAAAAAAAAAACAAgAA=</HashCode>
+      <FileName>CheapTowerCreationUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerCreationUI">
+    <Position X="60" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAACAACACAAAAIRAAIQEAAAIAAIIAAAAAAAEAE=</HashCode>
+      <FileName>TowerCreationUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpgradeFireRateUI">
+    <Position X="63.75" Y="10.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAoQAAAAAgAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>UpgradeFireRateUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpgradeDamageUI">
+    <Position X="70.25" Y="10.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAACAIQAAAAAgAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>UpgradeDamageUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigShotTowerCreationUI">
+    <Position X="46.5" Y="10.25" Width="2" />
+    <Members>
+      <Method Name="~BigShotTowerCreationUI" Hidden="true" />
+      <Method Name="BigShotTowerCreationUI" Hidden="true" />
+      <Method Name="createTower" Hidden="true" />
+      <Method Name="draw" Hidden="true" />
+      <Method Name="perfomClick" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAIQAAAEAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>BigShotTowerCreationUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplitShotTowerCreationUI">
+    <Position X="49.25" Y="10.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIQAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>SplitShotTowerCreationUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheapTower">
+    <Position X="8" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAABIAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheapTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerBase">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAQCAAABAAAAAAACIAAQAAgAAAAAAAIAAAAAAQQAA=</HashCode>
+      <FileName>TowerBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigShotTower">
+    <Position X="11.75" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAEAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BigShotTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplitTower">
+    <Position X="15.75" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SplitTower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseAsteroid">
+    <Position X="9.25" Y="20.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAABCCAAiMAAAAAAAAAAEAABACAAEAEAAA=</HashCode>
+      <FileName>BaseAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormalAsteroid">
+    <Position X="9.5" Y="25.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAAAgAiAAAIAAAAAAAAAAEAAAACAAAAAAAA=</HashCode>
+      <FileName>NormalAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigAsteroid">
+    <Position X="13.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAiAAAIAAAAAAAAAAkAAAACAAIAAAAA=</HashCode>
+      <FileName>BigAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastAsteroid">
+    <Position X="5.75" Y="25.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAgiCAAIAAAAAAAAAAEAAAACAAAAAAAA=</HashCode>
+      <FileName>FastAsteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheapShot">
+    <Position X="1" Y="24.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAQAICAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheapShot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shot">
+    <Position X="2.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAACAACIAAAAAAAAIAAAABAAAQAAABAA=</HashCode>
+      <FileName>Shot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physics">
+      <UniqueIdentifier>{385a09f5-d432-4ff5-8c9e-8955917116ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Things">
+      <UniqueIdentifier>{e626f19e-30d1-4564-8e3b-3d0c84c27b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Graphic">
+      <UniqueIdentifier>{4e81574f-aea0-4a1b-be48-92eae7718048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NewFilter1">
+      <UniqueIdentifier>{e6cf46e9-4999-4051-8bf7-714ac63d79c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{b8ffa60c-410d-4c9a-9961-85c6fd2f166d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\DrawObject">
+      <UniqueIdentifier>{4fa3e473-68c9-4284-b867-5d852009a13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\DrawObject\UI">
+      <UniqueIdentifier>{f4b784f0-a273-4d42-880e-27aea1ca054d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\DrawObject\UI\TopWindow">
+      <UniqueIdentifier>{c42bd075-ee9b-477b-b8d5-bae8f74a1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Towers">
+      <UniqueIdentifier>{d7cbac88-4033-448e-a382-34431d2749a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Asteroids">
+      <UniqueIdentifier>{c7ac0074-5312-45e2-8d57-536927afae16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Shots">
+      <UniqueIdentifier>{e57d9f82-d3b7-4878-95ae-43ea77b45ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI">
+      <UniqueIdentifier>{354303d1-7f6f-4cb4-81b9-f239fe87f1a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h">
+      <Filter>Fichiers d%27en-tête\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Fichiers d%27en-tête\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatPoint.h">
+      <Filter>Fichiers d%27en-tête\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Fichiers d%27en-tête\Things</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsManager.h">
+      <Filter>Fichiers d%27en-tête\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3.h">
+      <Filter>Fichiers d%27en-tête\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicItem.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoardPieces.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGLConverter.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStandardCaseMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicPrimitives2.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSelctedCaseMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObjects.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicBar.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TopWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Cadre.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TopWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerBase.h">
+      <Filter>Fichiers d%27en-tête\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="CheapTower.h">
+      <Filter>Fichiers d%27en-tête\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAsteroid.h">
+      <Filter>Fichiers d%27en-tête\Game\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAsteroid.h">
+      <Filter>Fichiers d%27en-tête\Game\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="CheapShot.h">
+      <Filter>Fichiers d%27en-tête\Game\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Fichiers d%27en-tête\Game\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerCreationUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheapTowerCreationUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NoMoneyTowerCreationUIDrawMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectedTowerCreationUIDrawMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerUIDrawMethod.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TopWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeFireRateUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeDamageUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BigShotTower.h">
+      <Filter>Fichiers d%27en-tête\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="BigShotTowerCreationUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitTower.h">
+      <Filter>Fichiers d%27en-tête\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitShotTowerCreationUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TowerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BigAsteroid.h">
+      <Filter>Fichiers d%27en-tête\Game\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="FastAsteroid.h">
+      <Filter>Fichiers d%27en-tête\Game\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeUI.h">
+      <Filter>Fichiers d%27en-tête\Game\DrawObject\UI\TopWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorLevel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Cadre.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheapShot.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheapTower.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CheapTowerCreationUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DrawMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DrawSelctedCaseMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DrawStandardCaseMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FastAsteroid.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FloatPoint.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameBoard.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameBoardPieces.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeneratorLevel.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicBar.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicItem.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicPrimitives2.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LifeUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MoneyUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NoMoneyTowerCreationUIDrawMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NormalAsteroid.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Point.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SelectedTowerCreationUIDrawMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shot.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Source.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SplitShotTowerCreationUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SplitTower.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TowerBase.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TowerCreationUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TowerUIDrawMethod.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIObjects.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UpgradeDamageUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UpgradeFireRateUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WindowsManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WorldGLConverter.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AABB.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BaseAsteroid.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BigAsteroid.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BigShotTower.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BigShotTowerCreationUI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
